@@ -1,0 +1,102 @@
+
+.cabeça {
+ padding-left: 40px;
+
+
+
+}
+
+ body {
+   background: #ff69b4; border-color: #ff69b4 20px;
+ }
+
+ .tudo {
+
+ 	background: #141414;
+ 	padding: 30px;
+ }
+
+ p {
+text-align: center;
+ }
+
+ #banner {
+       height: 350px;
+       width:100%;
+ }
+
+ #titulo {
+
+ 	 text-align: center; background: #141414; color: #ff69b4; height: 60px
+ }
+
+ #bar {
+ 	color:#ff69b4; font-size: 23px; height: 20px
+ }
+
+#bar2 {
+	font-size: 23px; color: #ffcbdb
+}
+
+#lore {
+ 	color: #fc0fc0; 
+ 	display: inline-block;
+ 	font-size: 30px;
+ 	padding-right: 10%;
+ 	text-decoration: none;
+ 	margin-right: 450px;
+ 	position: relative;
+ 	bottom: 250px;
+ 	left: 40px;
+
+ }
+
+ #imglore {
+ 	position: relative;
+ 	left: 700px;
+ 	width: 40%
+ }
+
+ #fonte {
+ 	font-size:30px; margin-right: 600px; padding: 39px; padding-top: 50px
+ }
+
+ #apresentação {
+ 	font-size: 20px; color: #db7093;
+ 	position: relative;
+ 	bottom: 200px;
+ }
+
+ #proibição {
+ 	color: #ff0000;
+ 	position: relative;
+ 	bottom: 200px;
+ }
+
+ #beneficios {
+
+ 	font-size: 35px; margin-left: 30px; color: #ce3b6b;
+ 	padding-top: 30px;
+ 	padding: 20px;
+ 	position: relative;
+ 	bottom: 200px;
+ }
+
+.itens {
+      font-size: 40px; font-style: italic; color: #ff1493;
+      position: relative;
+      bottom: 200px/
+}
+ ul {
+ 	display: inline-block;
+ 	vertical-align: top;
+ 	width: 40%;
+ 	position:relative;
+ 	bottom: 200px;
+ }
+
+ .imagembeneficios {
+ 	width: 50%;
+ 	position:relative;
+ 	bottom: 200px;
+ }

@@ -1,0 +1,332 @@
+header {
+	background: #FF1493;
+	padding: 20px 0;
+}
+
+.fundo {
+	background: #000000
+}
+
+
+nav{
+ position: absolute;
+  top: 35px;
+  right: 100px;
+
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;	
+
+
+}
+
+nav a {
+  text-transform: uppercase;
+  color: #000000;
+  font-weight: bold;
+  font-size: 22px;
+  text-decoration: none;
+}
+
+nav a:hover {
+	color: #FF00FF;
+	text-decoration: underline;
+}
+
+
+#imgcafé {
+	width: 33%;
+}
+
+#imgbebida {
+	width: 36%;
+}
+
+#imgmenu {
+	width: 62%;
+}
+
+.produtos {
+	width: 940px;
+	margin: 0 auto;
+	padding: 50px 0;
+}
+
+.produtos li {
+	display: inline-block;
+	text-align: center;
+	width: 30%;
+	vertical-align: top;
+	margin: 0 1.5%;
+	padding: 30px 20px;
+	box-sizing: border-box;
+	border: 2px solid #000000;
+	border-radius: 10px;
+	background: #ffffff;
+
+}
+
+.produtos li:hover {
+	border-color: #FF00FF;
+}
+
+.produtos li:hover h2 {
+	font-size: 40px
+
+}
+
+
+}
+
+.produtos h2 {
+	font-size: 25px;
+	font-weight: bold;
+
+}
+
+.descrição {
+	font-size: 18px;
+
+}
+
+.preço {
+	font-size: 20px;
+	font-weight: bold;
+	margin: 10px 0 0;
+}
+
+footer {
+	text-align: center;
+	background: #000000;
+	color: #ffffff;
+}
+
+#copyright {
+	width: 20%
+}
+
+body {
+	background: #000000;
+	box-shadow: inset 0 0 30px #FF1493;
+}
+
+
+.form label, form legend {
+	color: #ffffff;
+	display: block;
+	font-size: 20px;
+	margin: 0 0 10px;
+}
+
+.main {
+	width: 940px;
+	margin: 0 auto;
+}
+
+.form {
+	margin: 40px 0;
+}
+
+.input-padrao {
+	display: block;
+	margin: 0 0 20px;
+	padding: 10px 25px;
+	width: 50%;
+}
+
+#pergunta {
+	color: #ffffff
+}
+
+.checkbox {
+ 	padding-top: 20px
+ 	
+}
+
+.enviar {
+	width: 40%;
+	padding: 15px 0;
+	background: #ff1493;
+	color: black;
+	font-weight: bold;
+	font-size: 17px;
+	border-radius: 10px;
+	transition: 0.5s all;
+	cursor: pointer;
+}
+
+.enviar:hover {
+	background: #ff00ff;
+	transform: scale(1.1);
+	
+}
+
+table {
+	margin: 20px 40px;
+	color: #ffffff
+}
+
+thead {
+	background: #555555;
+	font-weight: bold;
+}
+
+td, th {
+	border: solid #ffffff;
+	padding: 8px 15px;
+}
+
+/* Css página principal */
+
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+
+main{
+   	box-shadow: inset 0 -10px 30px #FF1493;
+}
+
+
+
+.banner {
+	width: 100%;
+	height: 350px;
+
+}
+
+.Bar {
+	width: 7%;
+	float: left;
+	position: relative;
+	bottom: 50px;
+	margin: 0 10px 10px 0;
+	left: 55px;
+}
+
+.titulo {
+	text-align: center;
+	font-size: 2em;
+	color: #ff69b4;
+	margin: 1em 1em 1em;
+	clear: left;
+	text-shadow: 2px 2px 5px #FF1493; 
+}
+
+.tudo p {
+	color: #ffffff;
+	margin: 0 auto;
+	padding: 0 0 1em;
+	font-size: 17px;
+	width: 940px;
+	margin: 0 auto;
+	text-shadow: 2px 2px 5px #ffffff; 
+
+}
+
+
+
+.tudo strong {
+	font-weight: bold;
+}
+
+.tudo em {
+	font-style: italic;
+}
+
+
+
+#proibição {
+	font-weight: bold;
+	font-size: 20px;
+	color: red;
+	position: relative;
+	top: 30px;
+	left: 280px;
+}
+
+.mapa {
+	padding: 3em 0;
+	background: linear-gradient(#000000,#ffc0cb);
+	box-shadow: inset 0 -10px 30px #FF1493;
+
+
+
+}
+
+.mapa p {
+	color: #ffffff;
+	margin: 0 0 2em;
+	text-align: center;
+
+}
+
+.mapaconteudo {
+	width: 940px;
+	margin: 0 auto;
+}
+
+.beneficios {
+	padding: 3em 0;
+	background: #ffc0cb;
+	box-shadow: inset 0 -10px 30px #FF1493;
+}
+
+.conteudobeneficio {
+	width: 640px;
+	margin: auto;
+}
+
+.lista {
+	color: #000000;
+	width: 40%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.itens {
+	line-height: 1.5;
+}
+
+.itens:first-child {
+	font-weight: bold;
+}
+
+.itens:before {
+	content:"★";
+}
+
+.imagembeneficios {
+	width: 60%;
+	transition: 400ms;
+	opacity: 1;
+	box-shadow: 10px 10px 7px #000000;
+}
+
+.imagembeneficios:hover {
+	opacity: 0.6
+}
+
+.video {
+	width: 560px;
+	margin: 2em auto;
+}
+
+@media screen and () {
+	.caixa, .tudo, .conteudobeneficios, .mapaconteudo, .video, {
+		width: auto;
+	}
+
+	h1 {
+		text-align: center;
+	}
+
+	nav {
+		position: static;
+	}
+
+	.lista, .imagembeneficios {
+		width: 100%
+	}
+}
